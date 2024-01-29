@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="501fe0b5-b358-4784-8792-72162299b5c1" name="Changes" comment="feat: done task 2">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teachmeskills/lesson6/task1/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teachmeskills/lesson6/task1/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teachmeskills/lesson6/task1/card/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teachmeskills/lesson6/task1/card/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teachmeskills/lesson6/task1/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teachmeskills/lesson6/task1/client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/teachmeskills/lesson6/task1/service/ClientTransactionCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/teachmeskills/lesson6/task1/service/ClientTransactionCard.java" afterDir="false" />
-    </list>
+    <list default="true" id="501fe0b5-b358-4784-8792-72162299b5c1" name="Changes" comment="FIX: class Client, CreditCard" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +129,7 @@
       <workItem from="1706218349143" duration="7215000" />
       <workItem from="1706228061328" duration="2061000" />
       <workItem from="1706291316609" duration="9226000" />
-      <workItem from="1706540101444" duration="7426000" />
+      <workItem from="1706540101444" duration="7766000" />
     </task>
     <task id="LOCAL-00001" summary="create">
       <option name="closed" value="true" />
@@ -170,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706298098042</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="FIX: class Client, CreditCard">
+      <option name="closed" value="true" />
+      <created>1706547885393</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706547885393</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +192,8 @@
     <MESSAGE value="create" />
     <MESSAGE value="feat: done" />
     <MESSAGE value="feat: done task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: done task 2" />
+    <MESSAGE value="FIX: class Client, CreditCard" />
+    <option name="LAST_COMMIT_MESSAGE" value="FIX: class Client, CreditCard" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
