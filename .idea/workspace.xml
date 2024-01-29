@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="501fe0b5-b358-4784-8792-72162299b5c1" name="Changes" comment="FIX: class Client, CreditCard" />
+    <list default="true" id="501fe0b5-b358-4784-8792-72162299b5c1" name="Changes" comment="FIX: class Client, CreditCard">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,7 +131,7 @@
       <workItem from="1706218349143" duration="7215000" />
       <workItem from="1706228061328" duration="2061000" />
       <workItem from="1706291316609" duration="9226000" />
-      <workItem from="1706540101444" duration="7766000" />
+      <workItem from="1706540101444" duration="7954000" />
     </task>
     <task id="LOCAL-00001" summary="create">
       <option name="closed" value="true" />
@@ -171,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706547885393</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="FIX: class Client, CreditCard">
+      <option name="closed" value="true" />
+      <created>1706547909272</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706547909272</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

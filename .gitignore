@@ -1,9 +1,8 @@
 ### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-/TeachMeSkills_C27_Lesson_7_HW.iml
-/.idea/
+.idea
+*.iws
+*.iml
+*.ipr
 
 ### Eclipse ###
 .apt_generated
