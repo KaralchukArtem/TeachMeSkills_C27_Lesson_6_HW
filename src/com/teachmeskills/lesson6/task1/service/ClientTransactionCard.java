@@ -10,35 +10,35 @@ public class ClientTransactionCard {
     public String bankAccountNumberClient;
     public String bankAccountNumberCard;
 
-    public boolean DepositCard(double deposit,String bankAccountNumber,CreditCard creditCard){
-        if(Objects.equals(creditCard.bankAccountNumber, bankAccountNumber)){
-            if(deposit >= 10){
+    public boolean depositCard(double deposit, String bankAccountNumber, CreditCard creditCard) {
+        if (Objects.equals(creditCard.bankAccountNumber, bankAccountNumber)) {
+            if (deposit >= 10) {
                 creditCard.currentAccount += deposit;
                 System.out.println("Счет пополнен на сумму - " + deposit + "р");
                 System.out.println("Сумма счета - " + creditCard.currentAccount + "р");
                 return true;
-            }else {
+            } else {
                 System.out.println("Минимальная сумма пополнения 10р");
                 return false;
             }
-        }else {
+        } else {
             return false;
         }
     }
 
-    public boolean WithdrawMoney(double deposit,String bankAccountNumber,CreditCard creditCard){
-        if(Objects.equals(creditCard.bankAccountNumber, bankAccountNumber)){
+    public boolean withdrawMoney(double deposit, String bankAccountNumber, CreditCard creditCard) {
+        if (Objects.equals(creditCard.bankAccountNumber, bankAccountNumber)) {
             double current = creditCard.currentAccount - deposit;
-            if (current < 0){
+            if (current < 0) {
                 System.out.println("Недостаточно средств на счете для снятия");
                 return false;
-            }else {
-                creditCard.currentAccount -=deposit;
+            } else {
+                creditCard.currentAccount -= deposit;
                 System.out.println("Снято  - " + deposit + "р");
                 System.out.println("Сумма счета - " + creditCard.currentAccount + "р");
                 return true;
             }
-        }else {
+        } else {
             return false;
         }
     }
